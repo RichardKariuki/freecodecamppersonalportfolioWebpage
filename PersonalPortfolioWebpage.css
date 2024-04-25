@@ -1,0 +1,63 @@
+/* Add your own styles for the portfolio page */
+
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  #navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #f1f1f1;
+    padding: 10px;
+  }
+  
+  #navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  #navbar ul li {
+    margin-right: 10px;
+  }
+  
+  #navbar ul li a {
+    text-decoration: none;
+  }
+  
+  #navbar ul li a:hover {
+    color: blue;
+  }
+  
+  #welcome-section {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: lightblue;
+  }
+  
+  #projects {
+    padding: 50px;
+  }
+  
+  .project-tile {
+    border: 1px solid gray;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  @media (max-width: 600px) {
+    /* Add styles for mobile devices */
+    #projects {
+      padding: 20px;
+    }
+    
+    .project-tile {
+      padding: 10px;
+    }
+  }
